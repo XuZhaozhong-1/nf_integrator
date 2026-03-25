@@ -1,0 +1,14 @@
+{
+  "Ecm": 1000.0,
+  "mZ": 91.1876,
+  "cuts": true,
+  "N": 200000,
+  "seed": 0,
+  "sigma_mg5_pb": 5.6148,
+  "sigma_uniform_pb": 5.570469071356281,
+  "dsigma_uniform_pb": 0.061999789818451626,
+  "sigma_nf_pb": 5.618036284137649,
+  "dsigma_nf_pb": 0.008674569840179374,
+  "variance_reduction": 51.08395793135683,
+  "shape_plot": "/Users/xuzhaozhong/projects/NF_Model/nfmodel/plots/mg5_mc_nf/shape_costh_mg5_m2_nf.png"
+}

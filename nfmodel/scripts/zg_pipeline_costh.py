@@ -96,7 +96,7 @@ def train_flow_costh(
         w = w / ws
 
         logq = flow.logprob_c(c)  # (B,)
-        loss = -(w * logq).sum()
+        lvari
 
         opt.zero_grad(set_to_none=True)
         loss.backward()
@@ -313,7 +313,7 @@ def plot_flow_transforms(flow: ZGCosthFlow, Ecm, mZ, out_dir: Path, n=120000, se
     # Row 2: c -> y -> z
     #c_nf_np = c_tgt.detach().cpu().numpy()
     axes[1, 0].hist(c_tgt_np, bins=bins_c, density=True)
-    axes[1, 0].set_title(r"Inverse: $c\sim q_\theta(c)$")
+    axes[1, 0].set_title(r"Inverse: $c\sim p_{target}(c)$")
 
     axes[1, 1].hist(y_from_c.detach().cpu().numpy().reshape(-1), bins=80, density=True)
     axes[1, 1].set_title(r"Inverse: $y=\operatorname{atanh}(c)$")
@@ -328,7 +328,66 @@ def plot_flow_transforms(flow: ZGCosthFlow, Ecm, mZ, out_dir: Path, n=120000, se
     fig.savefig(out_dir / "flow_forward_inverse_validation.png", dpi=150, bbox_inches="tight")
     plt.close(fig)
 
+def hist_lhe_density_with_err(x, edges):
+    """
+    Unweighted events: p_hat = count/N, Var(p_hat) ≈ p(1-p)/N.
+    Density = p_hat / Δ.
+    """
+    N = len(x)
+    h, _ = np.histogram(x, bins=edges)
+    bw = np.diff(edges)
 
+    p_hat = h / max(N, 1)
+    dens = p_hat / bw
+
+    se_p = np.sqrt(np.maximum(p_hat * (1.0 - p_hat), 0.0) / max(N, 1))
+    se_dens = se_p / bw
+
+    centers = 0.5 * (edges[:-1] + edges[1:])
+    return centers, dens, se_dens
+
+
+def hist_nf_density_with_err(x, w, edges):
+    """
+    Weighted (importance) events: estimator p_hat = S_b / S
+      S_b = sum w_i 1_i,  S = sum w_i
+    Var(p_hat) ≈ (1/S^2) * (1/(N-1)) * sum (w_i (1_i - p_hat))^2
+    Density = p_hat / Δ.
+    """
+    x = np.asarray(x)
+    w = np.asarray(w, dtype=np.float64)
+    N = len(x)
+    bw = np.diff(edges)
+
+    # bin assignment
+    bin_idx = np.digitize(x, edges) - 1  # bins 0..B-1
+    B = len(edges) - 1
+
+    S = np.sum(w)
+    centers = 0.5 * (edges[:-1] + edges[1:])
+
+    dens = np.zeros(B, dtype=np.float64)
+    se_dens = np.zeros(B, dtype=np.float64)
+
+    if S <= 0 or N <= 1:
+        return centers, dens, se_dens
+
+    for b in range(B):
+        mask = (bin_idx == b)
+        Sb = np.sum(w[mask])
+        p_hat = Sb / S
+
+        # g_i = w_i (I_i - p_hat)
+        I = mask.astype(np.float64)
+        g = w * (I - p_hat)
+
+        var_p = (np.sum(g * g) / (N - 1)) / (S * S)   # <-- key formula
+        se_p = np.sqrt(max(var_p, 0.0))
+
+        dens[b] = p_hat / bw[b]
+        se_dens[b] = se_p / bw[b]
+
+    return centers, dens, se_dens
 # -----------------------
 # SAVE RESULTS
 # -----------------------
@@ -359,8 +418,8 @@ def main():
     mZ = MZ_DEFAULT
 
     # Train settings
-    steps = 2500
-    batch_size = 200000
+    steps = 1000
+    batch_size = 1000000
     lr = 2e-4
     hidden = 16
     n_blocks = 16         # => 16 layers total (coupling + perm)

@@ -1,0 +1,30 @@
+import model sm
+generate u u~ > z g
+output ZG_PARTON_ECM1000 -f
+launch
+
+# beams: partonic CM (no PDFs because lpp=0)
+set lpp1 0
+set lpp2 0
+set ebeam1 500
+set ebeam2 500
+
+set nevents 200000
+
+# must be one of allowed values
+set pdlabel nn23lo1
+set lhaid 230000
+
+# FIXED scales (this is the key)
+set fixed_ren_scale True
+set fixed_fac_scale True
+set scale 91.188
+set dsqrt_q2fact1 91.188
+set dsqrt_q2fact2 91.188
+set dynamical_scale_choice 0
+
+# cuts
+set ptj 20.0
+set etaj 5.0
+
+done
