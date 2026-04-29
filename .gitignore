@@ -25,3 +25,6 @@ nfmodel/models/
 
 # Jupyter
 .ipynb_checkpoints/
+benchmarks/plots/
+plots/
+venv/
