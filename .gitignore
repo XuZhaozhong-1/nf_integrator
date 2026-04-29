@@ -5,19 +5,21 @@ __pycache__/
 # macOS
 .DS_Store
 
-# Outputs / runtime
-results/
+# Runtime
 param.log
 
-# MadGraph cards (local only)
+# MadGraph local cards
 local_cards/
 
-# Model checkpoints
-nfmodel/models/
+# Ignore only heavy checkpoints
+results/checkpoints/
 *.pt
 *.pth
 
-# Binary / compiled
+# Model checkpoints elsewhere
+nfmodel/models/
+
+# Binary
 *.so
 *.dylib
 *.o
@@ -25,6 +27,6 @@ nfmodel/models/
 
 # Jupyter
 .ipynb_checkpoints/
-benchmarks/plots/
-plots/
+
+# Virtual env
 venv/
