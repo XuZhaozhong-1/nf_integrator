@@ -1,0 +1,112 @@
+[
+  {
+    "estimate": 3.6097480915486813e-06,
+    "variance": 1.2330978252372837e-13,
+    "runtime": 0.19492387771606445,
+    "events": 10000,
+    "ess": 104.57648468017578,
+    "trial": 0,
+    "method": "nf_A_kl",
+    "benchmark": "benchmark_fn",
+    "dim": 10
+  },
+  {
+    "estimate": 3.950799055019161e-06,
+    "variance": 1.2995172700511898e-13,
+    "runtime": 0.2494826316833496,
+    "events": 20000,
+    "ess": 119.40130615234375,
+    "trial": 1,
+    "method": "nf_A_kl",
+    "benchmark": "benchmark_fn",
+    "dim": 10
+  },
+  {
+    "estimate": 4.753278517455328e-06,
+    "variance": 1.9326329273906817e-13,
+    "runtime": 0.39191246032714844,
+    "events": 30000,
+    "ess": 116.45616149902344,
+    "trial": 2,
+    "method": "nf_A_kl",
+    "benchmark": "benchmark_fn",
+    "dim": 10
+  },
+  {
+    "estimate": 4.8393435463367496e-06,
+    "variance": 1.477777589967838e-13,
+    "runtime": 0.49286580085754395,
+    "events": 40000,
+    "ess": 157.85467529296875,
+    "trial": 3,
+    "method": "nf_A_kl",
+    "benchmark": "benchmark_fn",
+    "dim": 10
+  },
+  {
+    "estimate": 4.585480837704381e-06,
+    "variance": 1.4295766718845637e-13,
+    "runtime": 1.1773672103881836,
+    "events": 50000,
+    "ess": 146.6544647216797,
+    "trial": 4,
+    "method": "nf_A_kl",
+    "benchmark": "benchmark_fn",
+    "dim": 10
+  },
+  {
+    "estimate": 4.4044545575161465e-06,
+    "variance": 9.02074300131693e-14,
+    "runtime": 1.0261518955230713,
+    "events": 60000,
+    "ess": 214.28677368164062,
+    "trial": 5,
+    "method": "nf_A_kl",
+    "benchmark": "benchmark_fn",
+    "dim": 10
+  },
+  {
+    "estimate": 4.7773933147254866e-06,
+    "variance": 8.804895967060369e-14,
+    "runtime": 1.059267520904541,
+    "events": 70000,
+    "ess": 258.2608947753906,
+    "trial": 6,
+    "method": "nf_A_kl",
+    "benchmark": "benchmark_fn",
+    "dim": 10
+  },
+  {
+    "estimate": 4.52139238404925e-06,
+    "variance": 5.565179596995172e-14,
+    "runtime": 1.1833102703094482,
+    "events": 80000,
+    "ess": 365.6629943847656,
+    "trial": 7,
+    "method": "nf_A_kl",
+    "benchmark": "benchmark_fn",
+    "dim": 10
+  },
+  {
+    "estimate": 4.725052804133156e-06,
+    "variance": 1.3898988026044695e-13,
+    "runtime": 1.3610355854034424,
+    "events": 90000,
+    "ess": 160.34686279296875,
+    "trial": 8,
+    "method": "nf_A_kl",
+    "benchmark": "benchmark_fn",
+    "dim": 10
+  },
+  {
+    "estimate": 5.3028511501906905e-06,
+    "variance": 1.3458505143670862e-13,
+    "runtime": 1.5348384380340576,
+    "events": 100000,
+    "ess": 208.50668334960938,
+    "trial": 9,
+    "method": "nf_A_kl",
+    "benchmark": "benchmark_fn",
+    "dim": 10
+  }
+]

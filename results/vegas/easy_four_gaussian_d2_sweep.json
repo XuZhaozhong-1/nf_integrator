@@ -1,0 +1,122 @@
+[
+  {
+    "estimate": 0.20412889711309573,
+    "variance": 1.4176572624186087e-07,
+    "runtime": 0.5329999923706055,
+    "events": 10000,
+    "nitn": 10,
+    "neval": 1000,
+    "trial": 0,
+    "method": "vegas",
+    "benchmark": "easy_four_gaussian",
+    "dim": 2
+  },
+  {
+    "estimate": 0.20343593441333438,
+    "variance": 3.871753427309028e-08,
+    "runtime": 1.060978889465332,
+    "events": 20000,
+    "nitn": 10,
+    "neval": 2000,
+    "trial": 1,
+    "method": "vegas",
+    "benchmark": "easy_four_gaussian",
+    "dim": 2
+  },
+  {
+    "estimate": 0.20355600609749003,
+    "variance": 1.9099566428359387e-08,
+    "runtime": 1.583918809890747,
+    "events": 30000,
+    "nitn": 10,
+    "neval": 3000,
+    "trial": 2,
+    "method": "vegas",
+    "benchmark": "easy_four_gaussian",
+    "dim": 2
+  },
+  {
+    "estimate": 0.20334004009724413,
+    "variance": 1.1680693817231394e-08,
+    "runtime": 2.1103880405426025,
+    "events": 40000,
+    "nitn": 10,
+    "neval": 4000,
+    "trial": 3,
+    "method": "vegas",
+    "benchmark": "easy_four_gaussian",
+    "dim": 2
+  },
+  {
+    "estimate": 0.20338305578174506,
+    "variance": 8.014183185516786e-09,
+    "runtime": 2.6302952766418457,
+    "events": 50000,
+    "nitn": 10,
+    "neval": 5000,
+    "trial": 4,
+    "method": "vegas",
+    "benchmark": "easy_four_gaussian",
+    "dim": 2
+  },
+  {
+    "estimate": 0.20347445907149922,
+    "variance": 5.454708896855825e-09,
+    "runtime": 3.16556453704834,
+    "events": 60000,
+    "nitn": 10,
+    "neval": 6000,
+    "trial": 5,
+    "method": "vegas",
+    "benchmark": "easy_four_gaussian",
+    "dim": 2
+  },
+  {
+    "estimate": 0.2034771594481002,
+    "variance": 4.114087474385036e-09,
+    "runtime": 3.72391676902771,
+    "events": 70000,
+    "nitn": 10,
+    "neval": 7000,
+    "trial": 6,
+    "method": "vegas",
+    "benchmark": "easy_four_gaussian",
+    "dim": 2
+  },
+  {
+    "estimate": 0.2035039555176544,
+    "variance": 3.2671274474192574e-09,
+    "runtime": 4.236445665359497,
+    "events": 80000,
+    "nitn": 10,
+    "neval": 8000,
+    "trial": 7,
+    "method": "vegas",
+    "benchmark": "easy_four_gaussian",
+    "dim": 2
+  },
+  {
+    "estimate": 0.20351393343476684,
+    "variance": 2.681204025462651e-09,
+    "runtime": 4.779397249221802,
+    "events": 90000,
+    "nitn": 10,
+    "neval": 9000,
+    "trial": 8,
+    "method": "vegas",
+    "benchmark": "easy_four_gaussian",
+    "dim": 2
+  },
+  {
+    "estimate": 0.20338471932059193,
+    "variance": 2.252896927170702e-09,
+    "runtime": 5.282341480255127,
+    "events": 100000,
+    "nitn": 10,
+    "neval": 10000,
+    "trial": 9,
+    "method": "vegas",
+    "benchmark": "easy_four_gaussian",
+    "dim": 2
+  }
+]

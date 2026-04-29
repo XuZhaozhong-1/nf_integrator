@@ -1,0 +1,112 @@
+[
+  {
+    "estimate": 3.2446842521821617e-12,
+    "variance": 6.3677092872016165e-24,
+    "runtime": 0.1305983066558838,
+    "events": 10000,
+    "ess": 0.0010521275689825416,
+    "trial": 0,
+    "method": "nf_B_logw_std",
+    "benchmark": "benchmark_fn",
+    "dim": 6
+  },
+  {
+    "estimate": 4.5216372421448547e-13,
+    "variance": 4.957610225557048e-27,
+    "runtime": 0.22207903861999512,
+    "events": 20000,
+    "ess": 8.178065036190674e-05,
+    "trial": 1,
+    "method": "nf_B_logw_std",
+    "benchmark": "benchmark_fn",
+    "dim": 6
+  },
+  {
+    "estimate": 4.097387576798561e-13,
+    "variance": 7.654357422702321e-27,
+    "runtime": 0.4411354064941406,
+    "events": 30000,
+    "ess": 0.0001510962174506858,
+    "trial": 2,
+    "method": "nf_B_logw_std",
+    "benchmark": "benchmark_fn",
+    "dim": 6
+  },
+  {
+    "estimate": 3.0971321427625265e-12,
+    "variance": 5.596542926515165e-24,
+    "runtime": 0.5224461555480957,
+    "events": 40000,
+    "ess": 0.01521135214716196,
+    "trial": 3,
+    "method": "nf_B_logw_std",
+    "benchmark": "benchmark_fn",
+    "dim": 6
+  },
+  {
+    "estimate": 5.512653593157946e-13,
+    "variance": 1.9658162616842866e-26,
+    "runtime": 0.8720273971557617,
+    "events": 50000,
+    "ess": 0.0007596964132972062,
+    "trial": 4,
+    "method": "nf_B_logw_std",
+    "benchmark": "benchmark_fn",
+    "dim": 6
+  },
+  {
+    "estimate": Infinity,
+    "variance": NaN,
+    "runtime": 0.7316057682037354,
+    "events": 60000,
+    "ess": NaN,
+    "trial": 5,
+    "method": "nf_B_logw_std",
+    "benchmark": "benchmark_fn",
+    "dim": 6
+  },
+  {
+    "estimate": 5.697936155020511e-13,
+    "variance": 2.1467342688001348e-26,
+    "runtime": 0.8331305980682373,
+    "events": 70000,
+    "ess": 0.0015906899934634566,
+    "trial": 6,
+    "method": "nf_B_logw_std",
+    "benchmark": "benchmark_fn",
+    "dim": 6
+  },
+  {
+    "estimate": 4.554839036323421e-13,
+    "variance": 3.5718327563484786e-27,
+    "runtime": 1.0906696319580078,
+    "events": 80000,
+    "ess": 0.001327749458141625,
+    "trial": 7,
+    "method": "nf_B_logw_std",
+    "benchmark": "benchmark_fn",
+    "dim": 6
+  },
+  {
+    "estimate": 8.097343325366713e-13,
+    "variance": 5.985662077258431e-26,
+    "runtime": 1.4090125560760498,
+    "events": 90000,
+    "ess": 0.005308350548148155,
+    "trial": 8,
+    "method": "nf_B_logw_std",
+    "benchmark": "benchmark_fn",
+    "dim": 6
+  },
+  {
+    "estimate": 6.172176485186309e-13,
+    "variance": 1.0003766235865266e-26,
+    "runtime": 1.4234585762023926,
+    "events": 100000,
+    "ess": 0.003809194779023528,
+    "trial": 9,
+    "method": "nf_B_logw_std",
+    "benchmark": "benchmark_fn",
+    "dim": 6
+  }
+]

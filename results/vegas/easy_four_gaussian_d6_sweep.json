@@ -1,0 +1,122 @@
+[
+  {
+    "estimate": 0.0009361862966604101,
+    "variance": 3.1693293921705445e-10,
+    "runtime": 0.5274581909179688,
+    "events": 10000,
+    "nitn": 10,
+    "neval": 1000,
+    "trial": 0,
+    "method": "vegas",
+    "benchmark": "benchmark_fn",
+    "dim": 6
+  },
+  {
+    "estimate": 0.0010224821950427846,
+    "variance": 2.1294358826277664e-10,
+    "runtime": 1.0765712261199951,
+    "events": 20000,
+    "nitn": 10,
+    "neval": 2000,
+    "trial": 1,
+    "method": "vegas",
+    "benchmark": "benchmark_fn",
+    "dim": 6
+  },
+  {
+    "estimate": 0.001050841044910198,
+    "variance": 1.2641795401227123e-10,
+    "runtime": 1.612093210220337,
+    "events": 30000,
+    "nitn": 10,
+    "neval": 3000,
+    "trial": 2,
+    "method": "vegas",
+    "benchmark": "benchmark_fn",
+    "dim": 6
+  },
+  {
+    "estimate": 0.0010569268317199899,
+    "variance": 1.2405354853182728e-10,
+    "runtime": 2.226591110229492,
+    "events": 40000,
+    "nitn": 10,
+    "neval": 4000,
+    "trial": 3,
+    "method": "vegas",
+    "benchmark": "benchmark_fn",
+    "dim": 6
+  },
+  {
+    "estimate": 0.0010576583967376674,
+    "variance": 9.310289836467621e-11,
+    "runtime": 2.6381125450134277,
+    "events": 50000,
+    "nitn": 10,
+    "neval": 5000,
+    "trial": 4,
+    "method": "vegas",
+    "benchmark": "benchmark_fn",
+    "dim": 6
+  },
+  {
+    "estimate": 0.0010542460627779022,
+    "variance": 9.062985804501288e-11,
+    "runtime": 3.3429384231567383,
+    "events": 60000,
+    "nitn": 10,
+    "neval": 6000,
+    "trial": 5,
+    "method": "vegas",
+    "benchmark": "benchmark_fn",
+    "dim": 6
+  },
+  {
+    "estimate": 0.0010519026007413201,
+    "variance": 6.78299471160975e-11,
+    "runtime": 3.771141767501831,
+    "events": 70000,
+    "nitn": 10,
+    "neval": 7000,
+    "trial": 6,
+    "method": "vegas",
+    "benchmark": "benchmark_fn",
+    "dim": 6
+  },
+  {
+    "estimate": 0.001046351369500247,
+    "variance": 7.193710084310867e-11,
+    "runtime": 4.443652629852295,
+    "events": 80000,
+    "nitn": 10,
+    "neval": 8000,
+    "trial": 7,
+    "method": "vegas",
+    "benchmark": "benchmark_fn",
+    "dim": 6
+  },
+  {
+    "estimate": 0.0010411779425173412,
+    "variance": 7.417857474838804e-11,
+    "runtime": 4.82138991355896,
+    "events": 90000,
+    "nitn": 10,
+    "neval": 9000,
+    "trial": 8,
+    "method": "vegas",
+    "benchmark": "benchmark_fn",
+    "dim": 6
+  },
+  {
+    "estimate": 0.0010538722478215187,
+    "variance": 6.574884479266994e-11,
+    "runtime": 5.267149209976196,
+    "events": 100000,
+    "nitn": 10,
+    "neval": 10000,
+    "trial": 9,
+    "method": "vegas",
+    "benchmark": "benchmark_fn",
+    "dim": 6
+  }
+]

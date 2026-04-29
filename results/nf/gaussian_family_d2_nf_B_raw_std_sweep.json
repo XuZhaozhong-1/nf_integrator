@@ -1,0 +1,112 @@
+[
+  {
+    "estimate": 0.1385374516248703,
+    "variance": 4.068654016009532e-05,
+    "runtime": 0.12053251266479492,
+    "events": 10000,
+    "ess": 450.5127868652344,
+    "trial": 0,
+    "method": "nf_B_logw_std",
+    "benchmark": "benchmark_fn",
+    "dim": 2
+  },
+  {
+    "estimate": 0.12671241164207458,
+    "variance": 1.1632476343947928e-05,
+    "runtime": 0.23946475982666016,
+    "events": 20000,
+    "ess": 1291.228759765625,
+    "trial": 1,
+    "method": "nf_B_logw_std",
+    "benchmark": "benchmark_fn",
+    "dim": 2
+  },
+  {
+    "estimate": 0.12522222101688385,
+    "variance": 7.754963007755578e-06,
+    "runtime": 0.3457040786743164,
+    "events": 30000,
+    "ess": 1894.3895263671875,
+    "trial": 2,
+    "method": "nf_B_logw_std",
+    "benchmark": "benchmark_fn",
+    "dim": 2
+  },
+  {
+    "estimate": 0.1286928653717041,
+    "variance": 5.805229648103705e-06,
+    "runtime": 0.4357888698577881,
+    "events": 40000,
+    "ess": 2663.04931640625,
+    "trial": 3,
+    "method": "nf_B_logw_std",
+    "benchmark": "benchmark_fn",
+    "dim": 2
+  },
+  {
+    "estimate": 0.1307695358991623,
+    "variance": 4.974289822712308e-06,
+    "runtime": 0.543102502822876,
+    "events": 50000,
+    "ess": 3216.707275390625,
+    "trial": 4,
+    "method": "nf_B_logw_std",
+    "benchmark": "benchmark_fn",
+    "dim": 2
+  },
+  {
+    "estimate": 0.13049182295799255,
+    "variance": 3.9243045648618136e-06,
+    "runtime": 0.850689172744751,
+    "events": 60000,
+    "ess": 4046.566162109375,
+    "trial": 5,
+    "method": "nf_B_logw_std",
+    "benchmark": "benchmark_fn",
+    "dim": 2
+  },
+  {
+    "estimate": 0.12866032123565674,
+    "variance": 3.390136271264055e-06,
+    "runtime": 0.9799978733062744,
+    "events": 70000,
+    "ess": 4564.5048828125,
+    "trial": 6,
+    "method": "nf_B_logw_std",
+    "benchmark": "benchmark_fn",
+    "dim": 2
+  },
+  {
+    "estimate": 0.1329018622636795,
+    "variance": 3.387770902918419e-06,
+    "runtime": 1.1154758930206299,
+    "events": 80000,
+    "ess": 4894.78564453125,
+    "trial": 7,
+    "method": "nf_B_logw_std",
+    "benchmark": "benchmark_fn",
+    "dim": 2
+  },
+  {
+    "estimate": 0.13305498659610748,
+    "variance": 3.0403491564356955e-06,
+    "runtime": 1.2544000148773193,
+    "events": 90000,
+    "ess": 5469.109375,
+    "trial": 8,
+    "method": "nf_B_logw_std",
+    "benchmark": "benchmark_fn",
+    "dim": 2
+  },
+  {
+    "estimate": 0.13081477582454681,
+    "variance": 3.356899242135114e-06,
+    "runtime": 1.4266433715820312,
+    "events": 100000,
+    "ess": 4850.49609375,
+    "trial": 9,
+    "method": "nf_B_logw_std",
+    "benchmark": "benchmark_fn",
+    "dim": 2
+  }
+]

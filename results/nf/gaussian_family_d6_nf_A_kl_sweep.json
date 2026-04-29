@@ -1,0 +1,112 @@
+[
+  {
+    "estimate": 0.0010243222350254655,
+    "variance": 2.1659229965109716e-09,
+    "runtime": 0.14429807662963867,
+    "events": 10000,
+    "ess": 462.09027099609375,
+    "trial": 0,
+    "method": "nf_A_kl",
+    "benchmark": "benchmark_fn",
+    "dim": 6
+  },
+  {
+    "estimate": 0.0009642447694204748,
+    "variance": 9.126087108235481e-10,
+    "runtime": 0.22019338607788086,
+    "events": 20000,
+    "ess": 969.466064453125,
+    "trial": 1,
+    "method": "nf_A_kl",
+    "benchmark": "benchmark_fn",
+    "dim": 6
+  },
+  {
+    "estimate": 0.0010196318617090583,
+    "variance": 9.383203103396909e-10,
+    "runtime": 0.7803215980529785,
+    "events": 30000,
+    "ess": 1068.5601806640625,
+    "trial": 2,
+    "method": "nf_A_kl",
+    "benchmark": "benchmark_fn",
+    "dim": 6
+  },
+  {
+    "estimate": 0.0011336911702528596,
+    "variance": 5.387343460228067e-09,
+    "runtime": 0.8241982460021973,
+    "events": 40000,
+    "ess": 237.16094970703125,
+    "trial": 3,
+    "method": "nf_A_kl",
+    "benchmark": "benchmark_fn",
+    "dim": 6
+  },
+  {
+    "estimate": 0.0010134807089343667,
+    "variance": 4.708393119834398e-10,
+    "runtime": 0.575355052947998,
+    "events": 50000,
+    "ess": 2090.3544921875,
+    "trial": 4,
+    "method": "nf_A_kl",
+    "benchmark": "benchmark_fn",
+    "dim": 6
+  },
+  {
+    "estimate": 0.001063925912603736,
+    "variance": 7.313860628244129e-10,
+    "runtime": 0.762751579284668,
+    "events": 60000,
+    "ess": 1508.76953125,
+    "trial": 5,
+    "method": "nf_A_kl",
+    "benchmark": "benchmark_fn",
+    "dim": 6
+  },
+  {
+    "estimate": 0.0010384118650108576,
+    "variance": 4.793165309102676e-10,
+    "runtime": 1.1182477474212646,
+    "events": 70000,
+    "ess": 2179.6416015625,
+    "trial": 6,
+    "method": "nf_A_kl",
+    "benchmark": "benchmark_fn",
+    "dim": 6
+  },
+  {
+    "estimate": 0.001029202830977738,
+    "variance": 5.598772556680842e-10,
+    "runtime": 1.1608216762542725,
+    "events": 80000,
+    "ess": 1848.260498046875,
+    "trial": 7,
+    "method": "nf_A_kl",
+    "benchmark": "benchmark_fn",
+    "dim": 6
+  },
+  {
+    "estimate": 0.0010174809722229838,
+    "variance": 3.4768687928732334e-10,
+    "runtime": 1.279740810394287,
+    "events": 90000,
+    "ess": 2882.260498046875,
+    "trial": 8,
+    "method": "nf_A_kl",
+    "benchmark": "benchmark_fn",
+    "dim": 6
+  },
+  {
+    "estimate": 0.0010409592650830746,
+    "variance": 1.6383239209716294e-09,
+    "runtime": 1.4003171920776367,
+    "events": 100000,
+    "ess": 657.0660400390625,
+    "trial": 9,
+    "method": "nf_A_kl",
+    "benchmark": "benchmark_fn",
+    "dim": 6
+  }
+]

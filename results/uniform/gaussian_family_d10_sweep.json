@@ -1,0 +1,102 @@
+[
+  {
+    "estimate": 2.8009387733618496e-06,
+    "variance": 2.647734245395106e-12,
+    "runtime": 0.005190372467041016,
+    "trial": 0,
+    "events": 10000,
+    "method": "uniform",
+    "benchmark": "benchmark_fn",
+    "dim": 10
+  },
+  {
+    "estimate": 2.530026904423721e-06,
+    "variance": 5.555007951026092e-13,
+    "runtime": 0.0051686763763427734,
+    "trial": 1,
+    "events": 20000,
+    "method": "uniform",
+    "benchmark": "benchmark_fn",
+    "dim": 10
+  },
+  {
+    "estimate": 1.123705442296341e-05,
+    "variance": 2.4621032643223906e-11,
+    "runtime": 0.008839845657348633,
+    "trial": 2,
+    "events": 30000,
+    "method": "uniform",
+    "benchmark": "benchmark_fn",
+    "dim": 10
+  },
+  {
+    "estimate": 2.859177129721502e-06,
+    "variance": 4.5083828705862194e-13,
+    "runtime": 0.013953208923339844,
+    "trial": 3,
+    "events": 40000,
+    "method": "uniform",
+    "benchmark": "benchmark_fn",
+    "dim": 10
+  },
+  {
+    "estimate": 4.7888370318105444e-06,
+    "variance": 1.7815683824029538e-12,
+    "runtime": 0.015284538269042969,
+    "trial": 4,
+    "events": 50000,
+    "method": "uniform",
+    "benchmark": "benchmark_fn",
+    "dim": 10
+  },
+  {
+    "estimate": 3.427331193961436e-06,
+    "variance": 6.045395304146717e-13,
+    "runtime": 0.018535614013671875,
+    "trial": 5,
+    "events": 60000,
+    "method": "uniform",
+    "benchmark": "benchmark_fn",
+    "dim": 10
+  },
+  {
+    "estimate": 4.196676854917314e-06,
+    "variance": 9.566040451089441e-13,
+    "runtime": 0.01880192756652832,
+    "trial": 6,
+    "events": 70000,
+    "method": "uniform",
+    "benchmark": "benchmark_fn",
+    "dim": 10
+  },
+  {
+    "estimate": 4.259084562363569e-06,
+    "variance": 9.379687781682633e-13,
+    "runtime": 0.02340102195739746,
+    "trial": 7,
+    "events": 80000,
+    "method": "uniform",
+    "benchmark": "benchmark_fn",
+    "dim": 10
+  },
+  {
+    "estimate": 6.5105068642878905e-06,
+    "variance": 3.287668965193391e-12,
+    "runtime": 0.021160125732421875,
+    "trial": 8,
+    "events": 90000,
+    "method": "uniform",
+    "benchmark": "benchmark_fn",
+    "dim": 10
+  },
+  {
+    "estimate": 7.851627742638811e-06,
+    "variance": 5.251890068669329e-12,
+    "runtime": 0.023610353469848633,
+    "trial": 9,
+    "events": 100000,
+    "method": "uniform",
+    "benchmark": "benchmark_fn",
+    "dim": 10
+  }
+]

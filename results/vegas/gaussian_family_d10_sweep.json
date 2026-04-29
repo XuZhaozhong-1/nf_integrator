@@ -1,0 +1,122 @@
+[
+  {
+    "estimate": 2.1537637275972428e-06,
+    "variance": 1.3043800955377526e-15,
+    "runtime": 4.378775358200073,
+    "events": 10000,
+    "nitn": 10,
+    "neval": 1000,
+    "trial": 0,
+    "method": "vegas",
+    "benchmark": "benchmark_fn",
+    "dim": 10
+  },
+  {
+    "estimate": 3.2585517279974545e-06,
+    "variance": 2.2892728524533153e-14,
+    "runtime": 6.033878564834595,
+    "events": 20000,
+    "nitn": 10,
+    "neval": 2000,
+    "trial": 1,
+    "method": "vegas",
+    "benchmark": "benchmark_fn",
+    "dim": 10
+  },
+  {
+    "estimate": 3.7381999580784824e-06,
+    "variance": 7.622230481045736e-14,
+    "runtime": 8.584823846817017,
+    "events": 30000,
+    "nitn": 10,
+    "neval": 3000,
+    "trial": 2,
+    "method": "vegas",
+    "benchmark": "benchmark_fn",
+    "dim": 10
+  },
+  {
+    "estimate": 2.848280075511677e-06,
+    "variance": 3.4230572799254306e-14,
+    "runtime": 11.47394609451294,
+    "events": 40000,
+    "nitn": 10,
+    "neval": 4000,
+    "trial": 3,
+    "method": "vegas",
+    "benchmark": "benchmark_fn",
+    "dim": 10
+  },
+  {
+    "estimate": 3.7613987501615495e-06,
+    "variance": 3.7401547743704515e-14,
+    "runtime": 14.388946056365967,
+    "events": 50000,
+    "nitn": 10,
+    "neval": 5000,
+    "trial": 4,
+    "method": "vegas",
+    "benchmark": "benchmark_fn",
+    "dim": 10
+  },
+  {
+    "estimate": 4.463353541542025e-06,
+    "variance": 4.3363083559674394e-14,
+    "runtime": 16.636445999145508,
+    "events": 60000,
+    "nitn": 10,
+    "neval": 6000,
+    "trial": 5,
+    "method": "vegas",
+    "benchmark": "benchmark_fn",
+    "dim": 10
+  },
+  {
+    "estimate": 3.855849572559694e-06,
+    "variance": 8.234318810923425e-15,
+    "runtime": 20.57599925994873,
+    "events": 70000,
+    "nitn": 10,
+    "neval": 7000,
+    "trial": 6,
+    "method": "vegas",
+    "benchmark": "benchmark_fn",
+    "dim": 10
+  },
+  {
+    "estimate": 4.558735927887914e-06,
+    "variance": 2.423819252728288e-14,
+    "runtime": 23.216885566711426,
+    "events": 80000,
+    "nitn": 10,
+    "neval": 8000,
+    "trial": 7,
+    "method": "vegas",
+    "benchmark": "benchmark_fn",
+    "dim": 10
+  },
+  {
+    "estimate": 4.148482536143912e-06,
+    "variance": 2.878629987952046e-14,
+    "runtime": 27.390538930892944,
+    "events": 90000,
+    "nitn": 10,
+    "neval": 9000,
+    "trial": 8,
+    "method": "vegas",
+    "benchmark": "benchmark_fn",
+    "dim": 10
+  },
+  {
+    "estimate": 3.832128494499808e-06,
+    "variance": 1.6773202131508375e-14,
+    "runtime": 31.47755455970764,
+    "events": 100000,
+    "nitn": 10,
+    "neval": 10000,
+    "trial": 9,
+    "method": "vegas",
+    "benchmark": "benchmark_fn",
+    "dim": 10
+  }
+]
